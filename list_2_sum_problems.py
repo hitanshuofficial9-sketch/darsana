@@ -1,5 +1,5 @@
 l=[1,5,3,4,6,0,9,2]
-target=9
+target=int(input("enter your target"))
 i=0
 while i<len(l):
     j=i
@@ -8,4 +8,4 @@ while i<len(l):
             print(i,j)
             break
         j=j+1
-    i=i+1
+    i=i+1    
