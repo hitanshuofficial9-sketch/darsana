@@ -3,3 +3,4 @@ def display_info(**kwargs):
         print(f"keys:{keys} items:{items}")
 
 display_info(name="darsana",age=18)
+
