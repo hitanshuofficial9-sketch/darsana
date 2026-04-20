@@ -1,4 +1,3 @@
-import hello
-hello.greet("darsana")
-from hello import add
-print(add(2,3))
+from mypackage import maths_tools
+
+maths_tools.add(2,3)
